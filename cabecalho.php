@@ -7,7 +7,7 @@
 </head>
 <body>
   <header>
-    <h1>Loja do Marcos</h1>
+    <h1>Mauá Store</h1>
     <nav>
       <a href="index.php">Início</a>
       <a href="cadastrar.php">Cadastrar Novo Produto</a>
