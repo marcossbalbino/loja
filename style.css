@@ -1,0 +1,159 @@
+/* ===========================
+   Loja de Tênis - Verde e Cinza
+   =========================== */
+
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f0f2f5; /* fundo cinza claro */
+    color: #333;
+    line-height: 1.6;
+  }
+  
+ /* Cabeçalho Moderno */
+header {
+    background: linear-gradient(90deg, #2ecc71, #27ae60); /* gradiente verde */
+    color: #fff;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  header h1 {
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  
+  nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    position: relative;
+    transition: 0.3s;
+    padding: 4px 0;
+  }
+  
+  nav a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #e8f5e9;
+    transition: width 0.3s;
+    margin-top: 2px;
+  }
+  
+  nav a:hover::after {
+    width: 100%;
+  }
+  
+  nav a:hover {
+    color: #d4f2d6;
+  }
+  
+  
+  /* Container */
+  .container {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 25px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.05);
+  }
+  
+  /* Botões */
+  button, .btn {
+    display: inline-block;
+    background: #27ae60;
+    color: #fff;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    font-weight: 600;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  }
+  
+  button:hover, .btn:hover {
+    background: #2ecc71;
+    transform: translateY(-2px);
+  }
+  
+  /* Formulários */
+  form {
+    background: #fdfdfd;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #dfe6e9;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+  }
+  
+  form input, form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 18px;
+    border: 1px solid #b2bec3;
+    border-radius: 6px;
+  }
+  
+  /* Tabelas */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+    background: #fff;
+    border: 1px solid #dfe6e9;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  table th, table td {
+    padding: 14px;
+    text-align: left;
+    border-bottom: 1px solid #dfe6e9;
+  }
+  
+  table thead {
+    background: #27ae60;
+    color: #fff;
+  }
+  
+  table tr:nth-child(even) {
+    background: #f1f3f6;
+  }
+  
+  /* Rodapé */
+  footer {
+    background: #2ecc71;
+    color: #fff;
+    text-align: center;
+    padding: 18px;
+    margin-top: 50px;
+    box-shadow: 0 -4px 6px rgba(0,0,0,0.05);
+  }
+  

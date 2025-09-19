@@ -57,11 +57,16 @@ ALTER TABLE `produtos`
 
 -- Inserir dados na tabela `produtos`
 INSERT INTO `produtos` (`nome`, `preco`, `quantidade`) VALUES
-('Camiseta Básica', 29.99, 100),
-('Tênis Esportivo', 159.90, 50),
-('Bolsa de Couro', 199.99, 30),
-('Relógio de Pulso', 349.50, 20),
-('Óculos de Sol', 89.90, 75);
+('Notebook Gamer', 4500.00, 15),
+('Smartphone 128GB', 2300.50, 40),
+('Fone de Ouvido Bluetooth', 299.90, 60),
+('Mesa de Escritório', 850.00, 10),
+('Cadeira Ergonômica', 1200.75, 25),
+('Teclado Mecânico', 450.00, 35),
+('Monitor 27" 4K', 2200.99, 20),
+('Impressora Multifuncional', 799.90, 12),
+('Mochila Executiva', 349.50, 50),
+('Smartwatch', 1299.90, 30);
 
 COMMIT;
 
