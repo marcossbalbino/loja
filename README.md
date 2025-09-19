@@ -1,1 +1,2 @@
-# loja
+# Loja
+Tentativa loja SW
